@@ -1,6 +1,8 @@
 # Awesome Components Repository
 ![Screenshot (22)](https://github.com/vibhavtrivediWEBDEV/ReactWordpress/assets/96198369/2c90090d-8b11-4b48-8360-f5033484ab74)
 
+LIVE : https://resplendent-beijinho-385ec8.netlify.app/
+
 Welcome to the Awesome Components Repository! This repository is a collection of various types of components that you can use in your web development projects. From basic buttons to complex video components, carousels, cards, tables, and much more, this repository has got you covered.
 
 ## Purpose
