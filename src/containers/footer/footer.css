@@ -1,0 +1,81 @@
+.gpt-footer{
+    background-color: var(--color-blog);
+    margin-top: 100px;
+    font-family: var(--font-family);
+}
+.gpt-footer-heading h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: var(--font-family);
+    width: 100%;
+   
+    
+}
+.gpt-footer-btn{
+    align-items: center;
+    justify-content: center;
+    margin-left: 570px;
+}
+.gpt-footer-btn button{
+    font-size: 16px;
+    padding:10px 20px;
+    text-transform: capitalize;
+   font-weight: 500;
+   border: 2px solid white;
+    font-family: var(--font-family);
+    background-color:transparent;
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+    height: 50px;
+    letter-spacing: 1;
+    
+
+}
+.gpt-footer-container{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.gpt-footer-content-main{
+    width: 40%;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 40px;
+    
+
+}
+.gpt-footer-content-links{
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin-left: 5rem; */
+   grid-gap: 2rem;
+   
+}
+h3{
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+   font-weight: 900;
+}
+p{
+    color: white;
+}
+h5{
+  font-size: 16px;
+  color: var(--color-text);
+    margin-top: 10px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+}
+center{
+    color: var(--color-text);
+    margin-top: 50px;
+}

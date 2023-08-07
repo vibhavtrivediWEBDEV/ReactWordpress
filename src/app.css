@@ -1,0 +1,228 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--color-bg);
+ /* overflow: hidden; */
+    cursor: pointer;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+.gradient-bg{
+     background:-moz-radial-gradient(circle at 3% 25%, rgba(0,40,83,1) );
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgb(0,40,83,1));
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgb(0,40,83,1));
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0,40,83,1));
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0,40,83,1)); 
+
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  
+
+}
+
+
+.gradient-text{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-padding{
+    padding: 4rem 6rem;
+}
+.section-margin{
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @media screen and (max-width: 700px){
+    .section-padding{
+        padding: 4rem ;
+    }
+    .section-margin{
+        margin: 4rem ;
+    }
+  } 
+  @media screen and (max-width: 550px){
+    .section-padding{
+        padding: 4rem 2rem;
+    }
+    .section-margin{
+        margin: 4rem 2rem ;
+    }
+  } 
+
+  .cards{
+   height: 100vh;
+    width: 100%;
+    margin-left: -30px;
+   
+  }
+  .card{
+    /* height: 200px;
+    width: 200px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.9);
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+    color: red;
+  }
+h1{
+  color: #fff;
+}
+
+.cardsss{
+ color: green;
+}
+.ticketPrint{
+  height: 500px;
+  width: 30%;
+  margin: auto;
+  background: #fff;
+}
+
+.bannerimg{
+  height: 130px;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+  background-size: cover;
+  background-repeat: no-repeat ;
+}
+
+.ticket_images{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+
+}
+.ticket_images > div{
+  height: 100px;
+  width: 100px;
+}
+.ticket_images >div img{
+  height: 100px;
+  width: 100px;
+}
+
+
+canvas {
+  background: #f0f0f0;
+  display: block;
+  border-radius: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  background: #222;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.rules-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.rules {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #333;
+  color: #fff;
+  min-height: 100vh;
+  width: 400px;
+  /* padding: 20px; */
+  line-height: 1.5;
+  /* transform: translateX(-400px); */
+  transition: transform 1s ease-in-out;
+}
+
+.rules.show { 
+  transform: translateX(0);
+}
+
+input{
+ color: #fff;
+ border-bottom: 2px solid grey !important;
+}
+canvas{
+  height: 130% !important;
+  width: 100%;
+ background: transparent;
+
+}
+.wrapper{
+  width: 100vw;
+  height: 400vh;
+}
+.wrapper > div{
+  width: 100vw;
+  height: 400vh;
+}
+.wrapper > div >{
+  
+    top:30%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* transform: translateY(-50%); */
+  }

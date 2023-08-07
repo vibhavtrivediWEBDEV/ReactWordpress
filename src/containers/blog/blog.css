@@ -1,0 +1,35 @@
+.gtp-blog{
+    display: flex;
+    flex-direction: column;
+
+}
+.gpt-blog-heading{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.gpt-blog-heading h1{
+    font-size: 40px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    
+}
+
+
+.gpt-blog-container{
+    display: flex;
+   flex-direction: row;
+  
+   
+}
+.gpt-blog-container-groupA{
+    width: 50%;
+    margin-right: 2rem;
+}
+.gpt-blog-container-groupB{
+    width: 50%;   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 5rem;
+   grid-gap: 4rem;
+}

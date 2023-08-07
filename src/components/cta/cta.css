@@ -1,0 +1,40 @@
+.gpt-cta{
+    border: 2px solid #111;
+    color: #111;
+    justify-content: space-between;
+    display: flex;
+    background: var(--gradient-bar);
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+
+}
+.gpt-cta-content{
+    font-family: var(--font-family);
+    
+}
+.gpt-cta-content p{
+    font-size: 12px;
+    text-transform: capitalize;
+    
+}
+.gpt-cta-content h3{
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+
+.gpt-cta-btn button {
+  color: #fff;    
+  margin-top: 10px;
+  margin-right: 40px;
+  text-transform: capitalize;
+  background-color: black;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 9px 12px;
+  width: 120px;
+  
+}
