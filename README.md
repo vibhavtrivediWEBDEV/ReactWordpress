@@ -23,7 +23,7 @@ To use the components in your project, follow these simple steps:
 1. **Clone the Repository:** Start by cloning this repository to your local development environment.
 
    ```
-   git clone https://github.com/your-username/awesome-components.git
+   git clone https://github.com/your-username//ReactWordpress.git
    ```
 
 2. **Navigate to the Component of Interest:** Browse through the repository's directory structure and find the component you want to use.
