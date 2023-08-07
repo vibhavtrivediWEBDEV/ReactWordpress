@@ -1,4 +1,5 @@
 # Awesome Components Repository
+![Screenshot (22)](https://github.com/vibhavtrivediWEBDEV/ReactWordpress/assets/96198369/2c90090d-8b11-4b48-8360-f5033484ab74)
 
 Welcome to the Awesome Components Repository! This repository is a collection of various types of components that you can use in your web development projects. From basic buttons to complex video components, carousels, cards, tables, and much more, this repository has got you covered.
 
@@ -23,7 +24,7 @@ To use the components in your project, follow these simple steps:
 1. **Clone the Repository:** Start by cloning this repository to your local development environment.
 
    ```
-   git clone https://github.com/your-username//ReactWordpress.git
+   git clone https://github.com/vibhavtrivediWEBDEV/ReactWordpress.git
    ```
 
 2. **Navigate to the Component of Interest:** Browse through the repository's directory structure and find the component you want to use.
